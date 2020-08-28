@@ -630,7 +630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box:hover .icon {
-  background: #fff;
+  background: #262320;
   border: 2px solid #2dc997;
 }
 
@@ -700,8 +700,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #45514d;
+  border: 2px solid #526c08;
 }
 
 /* Portfolio Section
@@ -738,7 +738,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #2dc997;
+  background: #5a605e;
   color: #fff;
 }
 
@@ -864,7 +864,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #4a5d68;
   float: left;
 }
 
