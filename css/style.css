@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  color: #666666;
+  color: #5cac56;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -499,11 +499,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #242424eb;
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #828282;
   font-weight: 700;
   font-size: 32px;
 }
@@ -523,14 +523,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: #242424;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: #282522;
   width: 64px;
   height: 64px;
   display: flex;
@@ -597,10 +597,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #3b510b;
   height: 200px;
   position: relative;
-  background: #fafafa;
+  background: #222;
 }
 
 #services .icon {
@@ -661,7 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.96), rgb(29, 89, 7)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -941,7 +941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2dc997;
+  background: #40552754;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -949,7 +949,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #42390b;
+}
+
+.form-control {
+  background-color: #121a1c !important;
 }
 
 /*--------------------------------------------------------------
