@@ -338,11 +338,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  color: #67ea79;
   transition: 0.3s;
   display: block;
   font-size: 13px;
   text-transform: none;
+  background-color: #2a2929 !important;
 }
 
 .nav-menu ul li a:hover {
