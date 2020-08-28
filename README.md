@@ -1,1 +1,0 @@
-# newadministrator.github.io
