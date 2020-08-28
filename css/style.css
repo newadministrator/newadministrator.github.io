@@ -614,7 +614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 2px solid #468439;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,7 +622,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: #222;
 }
 
 #services .icon a {
