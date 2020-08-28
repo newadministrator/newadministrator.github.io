@@ -1,7 +1,11 @@
 body {
-  background: #fff;
+  background-color: #282727;
   color: #5cac56;
   font-family: "Open Sans", sans-serif;
+}
+
+hr {
+  border-top: 10px solid rgba(38, 83, 68, 0.14) !important;
 }
 
 a {
