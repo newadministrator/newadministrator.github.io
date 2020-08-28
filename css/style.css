@@ -210,8 +210,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #252a29;
+  border: 2px solid #252a29;
 }
 
 /*--------------------------------------------------------------
@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li a:hover {
-  background: #2dc997;
+  background: #333;
   color: #fff;
 }
 
@@ -859,12 +859,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
-  color: #333333;
+  color: #a7a89f;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #4a5d68;
+  color: #726666;
   float: left;
 }
 
@@ -898,8 +898,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
-  color: #fff;
+  background: #313533;
+  color: #758d7d80;
 }
 
 #contact .form #sendmessage {
