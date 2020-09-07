@@ -91,9 +91,9 @@ jQuery(document).ready(function($) {
     if (ferror) return false;
     else var str = $(this).serialize();
     var action = $(this).attr('action');
-    //if( ! action ) {
-      //action = 'conf/conf.php';
-    //}
+    if( ! action ) {
+      action = 'conf/conf.php';
+    }
     $.ajax({
       type: "POST",
       url: action,
