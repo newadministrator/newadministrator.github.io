@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
+    /*else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
       action = 'contactform/contact.php';
@@ -112,7 +112,7 @@ jQuery(document).ready(function($) {
 
       }
     });
-    return false;
+    return false;*/
   });
 
 });
