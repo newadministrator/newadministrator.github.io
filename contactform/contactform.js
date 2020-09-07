@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'conf/conf.php';
+      action = 'contactform/contact.php';
     }
     $.ajax({
       type: "POST",
@@ -111,7 +111,7 @@ jQuery(document).ready(function($) {
         }
 
       }
-    });    
+    });
     return false;
   });
 
