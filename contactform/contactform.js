@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    //return false;
+    return false;
   });
 
 });
