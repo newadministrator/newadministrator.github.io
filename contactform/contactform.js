@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    /*else var str = $(this).serialize();
+    else /*var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
       action = 'contactform/contact.php';
@@ -100,19 +100,19 @@ jQuery(document).ready(function($) {
       data: str,
       success: function(msg) {
         // alert(msg);
-        if (msg != 'OK') {
+        if (msg != 'OK')*/ {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
-        } else {
+        } /*else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
 
       }
-    });
-    return false;*/
+    });*/
+    /*return false;*/
   });
 
 });
