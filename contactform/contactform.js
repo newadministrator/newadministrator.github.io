@@ -89,30 +89,31 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else /*var str = $(this).serialize();
+    else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contact.php';
+       $("#sendmessage").addClass("show");
+       $("#errormessage").removeClass("show");
+       $('.contactForm').find("input, textarea").val("");
+       action = 'contactform/contact.php';
     }
-    $.ajax({
+    /*$.ajax({
       type: "POST",
       url: action,
       data: str,
       success: function(msg) {
         // alert(msg);
-        if (msg != 'OK')*/ {          
-          $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
-          $('.contactForm').find("input, textarea").val("");
-        } /*else {
+        if (msg != 'OK') {          
+
+        } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
 
       }
-    });*/
-    /*return false;*/
+    });
+    return false;*/
   });
 
 });
