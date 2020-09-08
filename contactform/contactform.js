@@ -104,9 +104,6 @@ jQuery(document).ready(function($) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
-          setTimeout(function () {
-          $("form.contactForm").submit();
-          }, 5000);
         } /*else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
