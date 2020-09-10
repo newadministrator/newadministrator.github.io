@@ -1,0 +1,46 @@
+#san-button {
+	padding: 10px 30px;
+	background:#4287f5;
+	border: 0;
+	color: #FFF;
+	display:inline-block;
+	margin-top:20px;
+	position:center;
+	cursor: pointer;
+}
+
+#san-button:disabled {
+	padding: 10px 50px;
+	background: #B9D8BA;
+	border: 0;
+	color: #FFF;
+	display:inline-block;
+	margin-top:20px;
+	position:center;
+	cursor: no-drop;
+}
+
+.validation-error {
+	color:#1bcc56;
+	margin: 0 0 20px;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.input-control {
+	padding:8px;
+}
+
+.input-group {
+	margin-top:10px;
+}
+
+.textarea-control {
+  height:50%;
+    width:25%;
+	padding: 8px;
+}
+
+.textarea-group{
+	margin-top:10px;
+}
